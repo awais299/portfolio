@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    font-family: "Raleway", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    margin-left: 100px;
+}
+
+.logo{
+    width:200px;
+}
+.list-items{
+    list-style: disc;
+    
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    list-style-type: square;
+    font-weight: 1000;
+    color: black;
+    
+
+}
+.homeContent{
+    margin: 10px 30px 40px 50px;
+    text-align: center;
+   
+}
+.food{
+    width: 100px;
+    position: absolute;
+}
+.burger{
+    width: 300px;
+    position: relative;
+}
+.pizza{
+    width: 300px;
+    position: absolute;
+}
